@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4ead8">
+  <meta name="description" content="A special digital invitation to Malik Waqar Awan's Walima celebration.">
+  <title>Walima Invitation | Malik Waqar Awan</title>
+  <style>
+    :root{--cream:#f4ead8;--paper:#fbf5e9;--maroon:#762b32;--maroon2:#8b3c42;--gold:#b99a5a;--ink:#55252a;--muted:#86676a}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:var(--cream);color:var(--ink);font-family:Georgia,'Times New Roman',serif;overflow-x:hidden}
+    body:before,body:after{content:"";position:fixed;top:-35px;bottom:-35px;width:clamp(68px,15vw,175px);pointer-events:none;opacity:.23;z-index:0;background-image:radial-gradient(circle at 50% 50%,transparent 0 13px,#b99a5a 14px 15px,transparent 16px),repeating-conic-gradient(from 0deg at 50% 50%,transparent 0deg 12deg,#b99a5a 13deg 15deg,transparent 16deg 30deg);background-size:62px 62px,88px 88px;mask-image:linear-gradient(to bottom,black,transparent 95%)} body:before{left:-24px}body:after{right:-24px}
+    .corner{position:fixed;width:125px;height:125px;border:1px solid #b99a5a;opacity:.35;z-index:0;pointer-events:none}.tl{top:12px;left:12px;border-right:0;border-bottom:0;border-radius:55px 0 0}.tr{top:12px;right:12px;border-left:0;border-bottom:0;border-radius:0 55px 0 0}.bl{bottom:12px;left:12px;border-right:0;border-top:0;border-radius:0 0 0 55px}.br{bottom:12px;right:12px;border-left:0;border-top:0;border-radius:0 0 55px}
+    main{position:relative;z-index:1;min-height:100svh;display:flex;flex-direction:column;align-items:center;padding:34px 18px 50px}.intro{text-align:center;max-width:650px;margin:12px auto 26px}.eyebrow{font-size:.72rem;letter-spacing:.24em;text-transform:uppercase;color:var(--gold)}h1{font-weight:400;font-size:clamp(2.5rem,8vw,5rem);font-style:italic;line-height:1.05;color:var(--maroon);margin:13px 0 8px}.intro p{margin:0;color:var(--muted);font-size:.95rem;letter-spacing:.04em}
+    .stage{width:min(100%,430px);perspective:1100px;margin:0 auto 26px;min-height:300px;display:grid;place-items:center}.envelope-wrap{position:relative;width:min(88vw,350px);height:225px;cursor:pointer;outline:none;filter:drop-shadow(0 18px 22px #6b3a3025)}.envelope{position:absolute;inset:0;background:#e7d4b3;border:1px solid #c5a76d;border-radius:5px;overflow:visible}.env-back{position:absolute;inset:0;background:linear-gradient(145deg,#e8d7b9,#d9c29b);clip-path:polygon(0 0,100% 0,100% 100%,0 100%)}.env-letter{position:absolute;left:8%;width:84%;height:88%;bottom:5%;background:var(--paper);border:1px solid #d3bc8d;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:14px;transition:transform 1s cubic-bezier(.2,.75,.25,1),bottom 1s;z-index:2}.env-letter .mini{font-size:.68rem;letter-spacing:.18em;color:var(--gold)}.env-letter strong{font-size:1.55rem;font-style:italic;color:var(--maroon);font-weight:400;margin:7px 0}.env-letter span:last-child{font-size:.76rem;color:var(--muted)}.env-front{position:absolute;inset:0;background:linear-gradient(135deg,#e5d0aa,#d9bd8d);clip-path:polygon(0 0,50% 58%,100% 0,100% 100%,0 100%);z-index:3;border-radius:4px}.env-side{position:absolute;inset:0;background:#ecdcbc;clip-path:polygon(0 0,50% 58%,0 100%);z-index:4}.env-side.right{clip-path:polygon(100% 0,50% 58%,100% 100%)}.env-flap{position:absolute;inset:0;background:linear-gradient(145deg,#d4b77f,#ebd8b3);clip-path:polygon(0 0,100% 0,50% 62%);transform-origin:top;transition:transform .9s ease;z-index:5;backface-visibility:hidden}.seal{position:absolute;z-index:6;left:50%;top:55%;transform:translate(-50%,-50%);width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:var(--maroon);color:#f7e9c9;border:2px solid #c5a76d;box-shadow:0 2px 8px #55252a40;font-size:1.25rem;transition:opacity .3s}.tap-hint{position:absolute;bottom:-42px;left:0;right:0;text-align:center;color:var(--maroon);font-size:.82rem;letter-spacing:.1em;animation:pulse 1.8s infinite}@keyframes pulse{50%{opacity:.45}}
+    .envelope-wrap.open .env-flap{transform:rotateX(180deg);z-index:1}.envelope-wrap.open .seal{opacity:0}.envelope-wrap.open .env-letter{transform:translateY(-118px);bottom:12%;z-index:7;transition-delay:.35s}.envelope-wrap.open .env-front,.envelope-wrap.open .env-side{transition:opacity .5s .5s;opacity:.4}
+    .invite{width:min(100%,620px);background:var(--paper);border:1px solid #c9ad77;box-shadow:0 18px 55px #6b3a301c;padding:clamp(25px,6vw,48px) clamp(18px,6vw,54px);text-align:center;position:relative;opacity:0;transform:translateY(25px) scale(.98);max-height:0;overflow:hidden;pointer-events:none;transition:opacity .8s,transform .8s,max-height 1s,padding .8s;margin:0 auto}.invite.show{opacity:1;transform:none;max-height:1500px;pointer-events:auto;margin:20px auto 0}.invite:before,.invite:after{content:"✧  ❧  ✧";display:block;color:var(--gold);letter-spacing:.55em;font-size:1rem}.bismillah{font-size:clamp(1.45rem,5vw,2rem);color:var(--maroon);margin:16px 0 10px;direction:rtl}.invite h2{font-size:clamp(2.4rem,8vw,4.4rem);font-style:italic;font-weight:400;color:var(--maroon);line-height:1.05;margin:14px 0}.invite .invite-line{font-size:1rem;line-height:1.6;margin:12px auto 18px;max-width:440px}.rule{height:1px;width:80px;background:var(--gold);margin:20px auto}.date{font-size:1.25rem;color:var(--maroon);margin:6px 0}.time{font-size:1.08rem;margin:6px 0 18px}.venue-label{font-weight:bold;font-size:1.15rem;margin-bottom:6px}.venue-name{font-size:1.3rem;color:var(--maroon);margin:5px 0}.address{line-height:1.55;margin:5px 0 18px}.actions{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin:20px 0}.btn{border:1px solid var(--maroon);background:var(--maroon);color:#fff8eb;text-decoration:none;padding:12px 17px;border-radius:3px;font:600 .86rem Arial,sans-serif;letter-spacing:.03em;cursor:pointer;transition:transform .2s,background .2s}.btn:hover{transform:translateY(-2px);background:var(--maroon2)}.btn.secondary{background:transparent;color:var(--maroon)}.countdown-wrap{margin:25px auto 12px}.countdown-title{font-size:.75rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:12px}.countdown{display:flex;justify-content:center;gap:clamp(8px,3vw,20px)}.count{min-width:57px}.count strong{display:block;font-size:1.75rem;font-weight:400;color:var(--maroon);font-variant-numeric:tabular-nums}.count span{font: .65rem Arial,sans-serif;letter-spacing:.12em;color:var(--muted);text-transform:uppercase}.music{position:fixed;right:18px;bottom:18px;z-index:10;border:1px solid #b99a5a;background:#fbf5e9;color:var(--maroon);border-radius:50px;padding:11px 15px;box-shadow:0 5px 18px #55252a20;font: .8rem Arial,sans-serif;cursor:pointer}.music[hidden]{display:none}.footer{font-size:.75rem;color:#9b7c70;margin:25px 0 0;text-align:center}.small-note{font-size:.75rem;color:var(--muted);margin-top:12px}
+    @media(max-width:420px){main{padding-top:25px}.stage{min-height:275px}.envelope-wrap{height:195px}.invite{padding:24px 17px}.btn{flex:1 1 145px}.corner{width:75px;height:75px}}
+    @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
+  </style>
+</head>
+<body>
+  <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+  <main>
+    <header class="intro">
+      <div class="eyebrow">A celebration of love & togetherness</div>
+      <h1>You're Invited</h1>
+      <p>A special invitation to celebrate a beautiful beginning</p>
+    </header>
+    <section class="stage" aria-label="Open your invitation">
+      <div class="envelope-wrap" id="envelope" role="button" tabindex="0" aria-label="Open invitation">
+        <div class="envelope"><div class="env-back"></div>
+          <div class="env-letter"><span class="mini">YOU ARE CORDIALLY INVITED</span><strong>Walima Celebration</strong><span>Tap to reveal your invitation</span></div>
+          <div class="env-front"></div><div class="env-side"></div><div class="env-side right"></div><div class="env-flap"></div><div class="seal">W</div>
+        </div>
+        <div class="tap-hint" id="tapHint">✦ &nbsp; TAP TO OPEN &nbsp; ✦</div>
+      </div>
+    </section>
+    <article class="invite" id="invitation" aria-live="polite">
+      <div class="bismillah">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</div>
+      <div class="eyebrow">With joy and gratitude</div>
+      <h2>Malik Waqar Awan</h2>
+      <p class="invite-line">Cordially invites you and your family to celebrate his Walima.</p>
+      <div class="rule"></div>
+      <div class="date">Monday, 23 November 2026</div>
+      <div class="time">12:00 PM – 3:00 PM</div>
+      <div class="venue-label">Venue</div>
+      <div class="venue-name">Afzal Zakia’s Marquee</div>
+      <p class="address">Main Margalla Road,<br>Sector E-11/4, Islamabad</p>
+      <div class="actions">
+        <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Afzal+Zakia%27s+Marquee%2C+Main+Margalla+Road%2C+Sector+E-11%2F4%2C+Islamabad%2C+Pakistan" target="_blank" rel="noopener">⌖ &nbsp; View Location</a>
+        <button class="btn secondary" id="rsvpBtn" type="button">♡ &nbsp; RSVP on WhatsApp</button>
+      </div>
+      <div class="countdown-wrap">
+        <div class="countdown-title">Counting down to the celebration</div>
+        <div class="countdown" id="countdown">
+          <div class="count"><strong id="days">--</strong><span>Days</span></div>
+          <div class="count"><strong id="hours">--</strong><span>Hours</span></div>
+          <div class="count"><strong id="minutes">--</strong><span>Minutes</span></div>
+          <div class="count"><strong id="seconds">--</strong><span>Seconds</span></div>
+        </div>
+      </div>
+      <div class="rule"></div>
+      <p class="invite-line" style="font-style:italic;color:var(--maroon)">Your presence will make our celebration even more special.</p>
+      <div class="small-note">We look forward to celebrating with you.</div>
+    </article>
+    <p class="footer">MADE WITH LOVE · WALIMA CELEBRATION 2026</p>
+  </main>
+  <button class="music" id="musicBtn" type="button" hidden aria-pressed="false">♫ &nbsp; Play soft music</button>
+  <script>
+    // Add the host's WhatsApp number here to send RSVPs directly.
+    // Use country code + number, digits only. Example format: 923001234567
+    const HOST_WHATSAPP_NUMBER = "";
+
+    const envelope = document.getElementById('envelope');
+    const invitation = document.getElementById('invitation');
+    const tapHint = document.getElementById('tapHint');
+    const musicBtn = document.getElementById('musicBtn');
+    let opened = false;
+    function openInvitation(){
+      if(opened) return; opened = true;
+      envelope.classList.add('open'); tapHint.textContent = '✦  YOUR INVITATION  ✦';
+      setTimeout(()=>{ invitation.classList.add('show'); invitation.scrollIntoView({behavior:'smooth',block:'start'}); },650);
+      musicBtn.hidden = false;
+    }
+    envelope.addEventListener('click',openInvitation);
+    envelope.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();openInvitation();}});
+
+    // Event time: 23 November 2026, 12:00 PM Pakistan Standard Time (UTC+05:00).
+    const eventTime = new Date('2026-11-23T12:00:00+05:00').getTime();
+    const pad = n => String(n).padStart(2,'0');
+    function updateCountdown(){
+      let diff = eventTime - Date.now();
+      if(diff <= 0){document.getElementById('countdown').innerHTML='<div class="count"><strong>Today</strong><span>Celebration day</span></div>';return;}
+      const d=Math.floor(diff/86400000); diff%=86400000;
+      const h=Math.floor(diff/3600000); diff%=3600000;
+      const m=Math.floor(diff/60000); const s=Math.floor((diff%60000)/1000);
+      document.getElementById('days').textContent=d;
+      document.getElementById('hours').textContent=pad(h);
+      document.getElementById('minutes').textContent=pad(m);
+      document.getElementById('seconds').textContent=pad(s);
+    }
+    updateCountdown(); setInterval(updateCountdown,1000);
+
+    document.getElementById('rsvpBtn').addEventListener('click',()=>{
+      const message = 'Assalamu Alaikum! I would like to RSVP for Malik Waqar Awan’s Walima on Monday, 23 November 2026, from 12:00 PM to 3:00 PM. Thank you for the invitation.';
+      const url = HOST_WHATSAPP_NUMBER
+        ? `https://wa.me/${HOST_WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`
+        : `https://api.whatsapp.com/send?text=${encodeURIComponent(message)}`;
+      window.open(url,'_blank','noopener,noreferrer');
+    });
+
+    // Original, synthesized gentle chime melody. Starts only after the visitor taps Play.
+    let audioCtx=null, melodyTimer=null, noteIndex=0, musicOn=false;
+    const notes=[523.25,659.25,783.99,659.25,587.33,698.46,880,698.46];
+    function playNote(){
+      if(!audioCtx||!musicOn)return;
+      const now=audioCtx.currentTime, osc=audioCtx.createOscillator(), gain=audioCtx.createGain();
+      osc.type='sine'; osc.frequency.value=notes[noteIndex%notes.length];
+      gain.gain.setValueAtTime(0.0001,now); gain.gain.exponentialRampToValueAtTime(0.045,now+.08); gain.gain.exponentialRampToValueAtTime(0.0001,now+.85);
+      osc.connect(gain);gain.connect(audioCtx.destination);osc.start(now);osc.stop(now+.9);
+      noteIndex++;
+    }
+    musicBtn.addEventListener('click',async()=>{
+      if(!audioCtx){const AC=window.AudioContext||window.webkitAudioContext;if(!AC){musicBtn.textContent='Music unavailable';return;}audioCtx=new AC();}
+      if(audioCtx.state==='suspended')await audioCtx.resume();
+      musicOn=!musicOn;
+      if(musicOn){playNote();melodyTimer=setInterval(playNote,950);musicBtn.textContent='♫  Pause music';musicBtn.setAttribute('aria-pressed','true');}
+      else{clearInterval(melodyTimer);musicBtn.textContent='♫  Play soft music';musicBtn.setAttribute('aria-pressed','false');}
+    });
+  </script>
+</body>
+</html>
